@@ -37,6 +37,5 @@
 5620_SAM_MME,samSiteId
 5620_SAM_FMemory,samSiteId
 5620_SAM_L2TP,samSiteId
-5620_SAM_NATPool,samRouterId
 5620_SAM_NATPool,samSiteId
 5620_SAM_DDM,samSiteName
