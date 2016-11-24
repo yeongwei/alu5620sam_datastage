@@ -27,7 +27,7 @@ export SAM_USERNAME
 export SAM_PASSWORD
 
 
-#Set JAVA_HOME to JAVA 1.7 to connect to SAM13 and above
+#JAVA 1.7 path to connect to SAM13
 
 export JAVA_HOME=$DS_DIR/../../ASBNode/apps/jre/bin/java
-
+#export JAVA_HOME=/home/dsadm/jdk1.8.0_05/bin/java

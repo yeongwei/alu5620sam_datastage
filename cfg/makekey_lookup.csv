@@ -125,8 +125,8 @@ dhcp.Dhcp6AddressPrefix,[0-9]+[.][0-9]+[.][0-9]+[.][0-9]+
 dhcp.Subnet,[0-9]+[.][0-9]+[.][0-9]+[.][0-9]+
 equipment.HardwareTemperatureLogRecord,[0-9]+[.][0-9]+[.][0-9]+[.][0-9]+
 nat.IsaMemberUsageStatsLogRecord,.*
-dhcp.LocalDhcp6ServerPrefixStatsLogRecord,.*
-dhcp.LocalDhcpServerSubnetStatsLogRecord,.*
+dhcp.LocalDhcp6ServerPrefixStatsLogRecord,[0-9]+[.][0-9]+[.][0-9]+[.][0-9]+
+dhcp.LocalDhcpServerSubnetStatsLogRecord,[0-9]+[.][0-9]+[.][0-9]+[.][0-9]+
 equipment.SystemCpuMonStatsLogRecord,[0-9]+[.][0-9]+[.][0-9]+[.][0-9]+
 lte.S1uPeer,.*
 lte.S5Peer,.*
@@ -134,7 +134,9 @@ lte.S8Peer,.*
 lte.S11Peer,.*
 ltemme.MmeServiceMemberMaf,[0-9]+[.][0-9]+[.][0-9]+[.][0-9]+
 lte.S1uAgwPeerStatsLogRecord,[0-9]+[.][0-9]+[.][0-9]+[.][0-9]+
+ltegw.UserRefPtStatsLogRecord,[0-9]+[.][0-9]+[.][0-9]+[.][0-9]+
 lte.S5AgwPeerStatsLogRecord,[0-9]+[.][0-9]+[.][0-9]+[.][0-9]+
+ltegw.ControlRefPtGtpv2StatsLogRecord,[0-9]+[.][0-9]+[.][0-9]+[.][0-9]+
 ltegw.S5AgwFailureCodeStatsLogRecord,[0-9]+[.][0-9]+[.][0-9]+[.][0-9]+
 lte.S8AgwPeerStatsLogRecord,[0-9]+[.][0-9]+[.][0-9]+[.][0-9]+
 ltegw.S8AgwFailureCodeStatsLogRecord,[0-9]+[.][0-9]+[.][0-9]+[.][0-9]+
