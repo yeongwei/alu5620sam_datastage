@@ -51,7 +51,6 @@ if [ -z "$SAM_JMSURL2" ]; then
   exit 1
 fi
 
-
 ######################################################
 ### check whether daemon is alive
 ###		return 1 if it's a live
@@ -94,7 +93,7 @@ function doStart
     FILTER="\"ALA_clientId in ('$SAM_UNIQUE_ID@1', '') and MTOSI_objectType in ('KeepAliveEvent','StateChangeEvent','TerminateClientSession','FileAvailableEvent','LogFileAvailableEvent',$CLSSTR) and ALA_category not in('STATISTICS','ACCOUNTING','FAULT')\""
 
     # start the daemon
-    eval $DAEMON -M START -l $LOGDIR/daemon.log -d $WORK_DIR -e DS_DIR -e SAM_JMSURL1 -e SAM_JMSURL2 -e DS_WORKSPACE -e SAM_UNIQUE_ID -e SAM_USERNAME -e SAM_PASSWORD -c $JAVA_HOME -a com.ibm.tivoli.tnpm.udm.sam.jms.JmsDaemon -a "=f" -a $FILTER ${ARGSLIST[*]}
+    eval $DAEMON -M START -l $LOGDIR/daemon.log -d $WORK_DIR -e DS_DIR -e SAM_JMSURL1 -e SAM_JMSURL2 -e DS_WORKSPACE -e SAM_UNIQUE_ID -e SAM_USERNAME -e SAM_PASSWORD -c $JAVA_HOME -a"=Djavax.net.ssl.trustStore=/appl/spark/java/truststore/sam.truststore" -a com.ibm.tivoli.tnpm.udm.sam.jms.JmsDaemon -a "=f" -a $FILTER ${ARGSLIST[*]}
     sleep 10     # wait for 10 seconds
     isDaemonAlive
     status=$?
@@ -110,8 +109,6 @@ function doStart
   else
     echo "STATUS: UNKNOWN"
   fi
-echo "$SAM_JMSURL1 : ${ARGSLIST[*]}"
-
 }
 
 ######################################################
@@ -143,6 +140,7 @@ function doStop
     echo "STATUS: UNKNOWN"
   fi
 }
+
 ######################################################
 ### check the status of daemon
 ###		to be used from command line
