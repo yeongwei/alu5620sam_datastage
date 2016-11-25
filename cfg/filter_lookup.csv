@@ -100,7 +100,7 @@ tdmequipment.DS3E3Channel,1
 vll.L2AccessInterface,1
 vpls.L2AccessInterface,1
 vprn.L3AccessInterface,1
-vprn.ServiceAccessPoint,1
+vprn.ServiceAccessPoint,0
 epipe.Epipe,1
 vpls.Vpls,1
 mpr.IMALink,1
@@ -134,7 +134,9 @@ lte.S8Peer,1
 lte.S11Peer,1
 ltemme.MmeServiceMemberMaf,1
 lte.S1uAgwPeerStatsLogRecord,1
+ltegw.UserRefPtStatsLogRecord,1
 lte.S5AgwPeerStatsLogRecord,1
+ltegw.ControlRefPtGtpv2StatsLogRecord,1
 ltegw.S5AgwFailureCodeStatsLogRecord,1
 lte.S8AgwPeerStatsLogRecord,1
 ltegw.S8AgwFailureCodeStatsLogRecord,1

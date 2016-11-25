@@ -134,7 +134,9 @@ lte.S8Peer,100
 lte.S11Peer,100
 ltemme.MmeServiceMemberMaf,100
 lte.S1uAgwPeerStatsLogRecord,100
+ltegw.UserRefPtStatsLogRecord,100
 lte.S5AgwPeerStatsLogRecord,100
+ltegw.ControlRefPtGtpv2StatsLogRecord,100
 ltegw.S5AgwFailureCodeStatsLogRecord,100
 lte.S8AgwPeerStatsLogRecord,100
 ltegw.S8AgwFailureCodeStatsLogRecord,100
