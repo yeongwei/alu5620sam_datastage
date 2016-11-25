@@ -191,11 +191,11 @@ Accounting,RouterObject,5620_SAM_ServiceAccess,ies.MSap,nodeId,1
 Performance,RouterObject,5620_SAM_FMemory,equipment.FlashMemory,siteId,1
 Performance,RouterObject,5620_SAM_NQueue,ethernetequipment.EthernetPortSpecifics,siteId,1
 Performance,RouterObject,5620_SAM_L2TP,l2tp.Site,siteId,1
-Performance,NatObject,5620_SAM_NATPool,nat.NatPool,objectFullName,1
+Performance,NatObject,5620_SAM_NATPool,nat.NatPool,partitionId,1
 Performance,RouterObject,5620_SAM_FMemory,equipment.FlashMemory,siteId,0
 Performance,RouterObject,5620_SAM_L2TP,l2tp.SiteStatsLogRecord,siteId,0
-Performance,NatObject,5620_SAM_NATPool,nat.NatPoolLsnStatsLogRecord,monitoredObjectPointer,0
-Performance,NatObject,5620_SAM_NATPool,nat.NatPoolL2AwStatsLogRecord,monitoredObjectPointer,0
+Performance,NatObject,5620_SAM_NATPool,nat.NatPoolLsnStatsLogRecord,monitoredObjectSiteId,0
+Performance,NatObject,5620_SAM_NATPool,nat.NatPoolL2AwStatsLogRecord,monitoredObjectSiteId,0
 Accounting,NetworkQueueObject,5620_SAM_NQueue,service.CompleteNetworkEgressPacketOctetsLogRecord,siteId,0
 Accounting,NetworkQueueObject,5620_SAM_NQueue,service.CompleteNetworkIngressPacketOctetsLogRecord,siteId,0
 Performance,RouterObject,5620_SAM_DDM,equipment.DDMStatsLogRecord,siteName,0

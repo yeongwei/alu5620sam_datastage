@@ -2052,6 +2052,8 @@ nat.NatPoolLsnStatsLogRecord,mbrBlockUsage
 nat.NatPoolLsnStatsLogRecord,monitoredObjectPointer
 nat.NatPoolLsnStatsLogRecord,vrtrId
 nat.NatPoolLsnStatsLogRecord,timeCaptured
+nat.NatPoolLsnStatsLogRecord,monitoredObjectSiteId
+nat.NatPoolLsnStatsLogRecord,monitoredObjectSiteName
 nat.NatPoolL2AwStatsLogRecord,blkUsage
 nat.NatPoolL2AwStatsLogRecord,monitoredObjectPointer
 nat.NatPoolL2AwStatsLogRecord,vrtrId
