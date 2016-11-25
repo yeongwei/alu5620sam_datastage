@@ -12,5 +12,5 @@ cd $(dirname $0)
 source ./env.sh
 
 ./sendJmsMessage.sh tcp://localhost:61616 $SAM_UNIQUE_ID action/DONE
-kill -9 `ps -eaf | grep defunc | tr -s " " |cut -d " " -f3| tr "\n" " "`
-kill -9 `ps -eaf | grep defunc | tr -s " " |cut -d " " -f2| tr "\n" " "`
+# kill -9 `ps -eaf | grep defunc | tr -s " " |cut -d " " -f3| tr "\n" " "`
+# kill -9 `ps -eaf | grep defunc | tr -s " " |cut -d " " -f2| tr "\n" " "`
