@@ -1772,7 +1772,7 @@ nat.NatIsaResourceStatsLogRecord,timeCaptured
 nat.NatIsaResourceStatsLogRecord,statsName
 nat.NatIsaResourceStatsLogRecord,statsValue
 nat.NatIsaResourceStatsLogRecord,statsMaxValue
-nat.NatIsaResourceStats,monitoredObjectSiteName
+nat.NatIsaResourceStatsLogRecord,monitoredObjectSiteName
 dhcp.Dhcp6AddressPrefix,objectFullName
 dhcp.Dhcp6AddressPrefix,nodeId
 dhcp.Dhcp6AddressPrefix,nodeName
