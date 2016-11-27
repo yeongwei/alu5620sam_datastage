@@ -1767,11 +1767,11 @@ nat.IsaMember,chassisIndex
 nat.IsaMember,mdaSlot
 nat.IsaMember,groupNumber
 nat.IsaMember,memberId
-nat.NatIsaResourceStatsLogRecords,monitoredObjectPointer
-nat.NatIsaResourceStatsLogRecords,timeCaptured
-nat.NatIsaResourceStatsLogRecords,statsName
-nat.NatIsaResourceStatsLogRecords,statsValue
-nat.NatIsaResourceStatsLogRecords,statsMaxValue
+nat.NatIsaResourceStatsLogRecord,monitoredObjectPointer
+nat.NatIsaResourceStatsLogRecord,timeCaptured
+nat.NatIsaResourceStatsLogRecord,statsName
+nat.NatIsaResourceStatsLogRecord,statsValue
+nat.NatIsaResourceStatsLogRecord,statsMaxValue
 nat.NatIsaResourceStats,monitoredObjectSiteName
 dhcp.Dhcp6AddressPrefix,objectFullName
 dhcp.Dhcp6AddressPrefix,nodeId
