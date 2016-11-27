@@ -1767,6 +1767,12 @@ nat.IsaMember,chassisIndex
 nat.IsaMember,mdaSlot
 nat.IsaMember,groupNumber
 nat.IsaMember,memberId
+nat.NatIsaResourceStats,monitoredObjectPointer
+nat.NatIsaResourceStats,timeCaptured
+nat.NatIsaResourceStats,statsName
+nat.NatIsaResourceStats,statsValue
+nat.NatIsaResourceStats,statsMaxValue
+nat.NatIsaResourceStats,monitoredObjectSiteName
 dhcp.Dhcp6AddressPrefix,objectFullName
 dhcp.Dhcp6AddressPrefix,nodeId
 dhcp.Dhcp6AddressPrefix,nodeName

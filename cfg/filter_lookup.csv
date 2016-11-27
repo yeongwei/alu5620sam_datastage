@@ -125,6 +125,7 @@ dhcp.Dhcp6AddressPrefix,1
 dhcp.Subnet,1
 equipment.HardwareTemperatureLogRecord,1
 nat.IsaMemberUsageStatsLogRecord,1
+nat.NatIsaResourceStatsLogRecord,1
 dhcp.LocalDhcp6ServerPrefixStatsLogRecord,1
 dhcp.LocalDhcpServerSubnetStatsLogRecord,1
 equipment.SystemCpuMonStatsLogRecord,1

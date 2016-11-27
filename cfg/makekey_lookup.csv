@@ -152,6 +152,7 @@ M:equipment.FlashMemory,[0-9]+[.][0-9]+[.][0-9]+[.][0-9]+
 l2tp.SiteStatsLogRecord,[0-9]+[.][0-9]+[.][0-9]+[.][0-9]+
 nat.NatPoolLsnStatsLogRecord,[0-9]+[.][0-9]+[.][0-9]+[.][0-9]+
 nat.NatPoolL2AwStatsLogRecord,[0-9]+[.][0-9]+[.][0-9]+[.][0-9]+
+nat.NatIsaResourceStatsLogRecord,.*
 service.CompleteNetworkEgressPacketOctetsLogRecord,[0-9]+[.][0-9]+[.][0-9]+[.][0-9]+
 service.CompleteNetworkIngressPacketOctetsLogRecord,[0-9]+[.][0-9]+[.][0-9]+[.][0-9]+
 ethernetequipment.EthernetStatsLogRecord,[0-9]+[.][0-9]+[.][0-9]+[.][0-9]+
